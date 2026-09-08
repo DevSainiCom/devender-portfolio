@@ -451,30 +451,5 @@ export const portfolioData = {
     },
   ],
 
-  coverLetter: `Dear Hiring Team,
-
-I'm writing to express my strong interest in security leadership roles where strategic thinking, hands-on detection engineering expertise, and proven team leadership drive enterprise cyber defense transformation.
-
-Over the past 12 years, I've built and led security operations at scale—from protecting carrier-grade infrastructure as part of Bharti Airtel's DDoS defense team, to architecting and managing detection platforms for regulated enterprises across financial services, energy, and public sector. My background spans the full spectrum: hands-on threat hunting and detection engineering, SOC leadership, SIEM/EDR platform ownership, incident command, and security architecture.
-
-What sets my profile apart is the combination of technical depth and operational leadership. I don't just oversee detection platforms—I build and tune them. I don't just manage incidents—I lead the team through them, translating raw data into actionable intelligence and organizational learning. At Deloitte, I cut an 18,000-item vulnerability backlog by 85% in 3 months while simultaneously running detection engineering for 8 clients and leading an interim SOC team of 8-10 through 24/7 operations. At Rabobank and EPAM, I've led multi-year platform migrations without SLA breaches, built multi-tenant detection frameworks, and continuously improved detection quality through structured review cycles.
-
-I approach security operations with a systems mindset: threat hunting feeds detection gaps; detection gaps feed architecture decisions; architecture informs platform roadmaps. I translate threat intelligence into working detections, map coverage against MITRE ATT&CK systematically, and treat alert tuning not as a periodic task but as a standing responsibility that compounds over time.
-
-I'm particularly drawn to organizations building applied AI-assisted SOC operations, working with advanced analytics for threat detection, and taking security automation seriously as a force multiplier. I hold CISM and GSOM certifications, have hands-on experience across Sentinel, Google SecOps, Splunk, QRadar, and CrowdStrike, and write Python and Bash to accelerate detection engineering and investigation workflows.
-
-I'm ready to bring this combination of technical leadership, team management, and architectural thinking to an organization serious about building resilient, data-driven cyber defense operations.
-
-I'd welcome the opportunity to discuss how my experience aligns with your team's priorities.
-
-Best regards,
-Devender Kumar`,
-
-  contactSection: {
-    heading: "Let's Connect",
-    subheading: "Interested in discussing security strategy, detection engineering, or SOC transformation?",
-    email: "devender.saini.com@gmail.com",
-    phone: "+31-685334809",
-    linkedin: "https://www.linkedin.com/in/devendersaini",
   },
 }
