@@ -1,0 +1,480 @@
+export const portfolioData = {
+  personal: {
+    name: "Devender Kumar",
+    title: "Cyber Defense Lead | Security Architect",
+    subtitle: "EMEA & APAC | EPAM Systems, Netherlands",
+    email: "devender.saini.com@gmail.com",
+    phone: "+31-685334809",
+    location: "The Hague, Netherlands",
+    linkedin: "https://www.linkedin.com/in/devendersaini",
+  },
+
+  hero: {
+    headline: "Security Operations Leader & Detection Engineer",
+    subheadline: "12+ years building SOCs, leading cyber defense teams, and architecting detection systems across enterprise, MSSP, and telecom infrastructure.",
+    cta: "View Work",
+  },
+
+  experience: [
+    {
+      company: "EPAM Systems",
+      location: "Netherlands",
+      title: "Cyber Defense Lead",
+      period: "February 2025 – Present",
+      duration: "Current",
+      description: "Leading security operations, cyber defense, and detection engineering across global enterprise environments.",
+      highlights: [
+        "Owns strategic direction and platform optimization for 3 enterprise clients",
+        "Led Splunk to Google SecOps (Chronicle) migration for regulated multi-cloud environment (30,000+ endpoints, 900+ applications)",
+        "Manages team of 12+ engineers across log onboarding, SOAR, and detection engineering",
+        "Leads MDR delivery and continuous improvement with vendor collaboration",
+        "Building applied AI-assisted SOC operations and agentic detection frameworks",
+      ],
+      domain: ["SOC Operations", "Detection Engineering", "Architecture", "Cloud Security"],
+    },
+    {
+      company: "Deloitte",
+      location: "Netherlands",
+      title: "Solution Architect / Interim SOC Manager",
+      period: "June 2022 – January 2025",
+      duration: "2.7 years",
+      description: "Designed and delivered cybersecurity solutions across 12+ enterprise clients in financial services, energy, engineering, and public sector.",
+      highlights: [
+        "Interim SOC Manager for 18 months: led team of 8-10, managed MDR delivery and incident command",
+        "Delivered detection engineering for 8 clients (Sentinel, MDE, Darktrace, Splunk)",
+        "Reduced 18,000+ high/critical vulnerabilities by 85% in 3 months",
+        "Mapped detection coverage against MITRE ATT&CK using DeTT&CT framework",
+        "Led purple team exercises and incident response playbook development",
+        "Presented security maturity roadmaps and risk assessments to CISOs",
+      ],
+      domain: ["SOC Leadership", "Detection Engineering", "Vulnerability Management", "Incident Response"],
+    },
+    {
+      company: "Rabobank",
+      location: "Netherlands",
+      title: "Senior Security Engineer",
+      period: "October 2020 – May 2022",
+      duration: "1.7 years",
+      description: "Led Sentinel and ArcSight SIEM migration for Tier-1 regulated Dutch bank.",
+      highlights: [
+        "Owned platform strategy and configuration through end-to-end SIEM migration (zero SLA breaches)",
+        "Built multi-tenant use case framework on Sentinel, standardizing detection rules across business units",
+        "Implemented Zero Trust architecture and PAM platform integration",
+        "Ran daily threat hunting on Darktrace and Vectra AI; incident investigation across attack vectors",
+        "Conducted feedback sessions with Microsoft product teams on platform roadmap",
+      ],
+      domain: ["SIEM", "Zero Trust", "Threat Hunting", "Identity & Access"],
+    },
+    {
+      company: "Aramco Overseas Company",
+      location: "Netherlands",
+      title: "Security Engineer",
+      period: "January 2020 – September 2020",
+      duration: "9 months",
+      description: "SIEM, SOAR, and vulnerability management for enterprise IT and industrial OT environments.",
+      highlights: [
+        "Owned configuration and tuning of SIEM and SOAR across IT and OT environments",
+        "Ran monthly threat hunting cycles, feeding CTI findings into detection rules",
+        "Managed vulnerability assessments using Tenable Nessus across enterprise and OT assets",
+        "Handled phishing and malware analysis",
+      ],
+      domain: ["OT Security", "SIEM/SOAR", "Vulnerability Management"],
+    },
+    {
+      company: "Tata Consultancy Services",
+      location: "Dubai",
+      title: "Senior Security Analyst",
+      period: "October 2018 – November 2019",
+      duration: "1.2 years",
+      description: "SOC operations and security for one of the UAE's largest banks under strict regulatory requirements.",
+      highlights: [
+        "Owned ArcSight SIEM platform configuration and detection tuning for enterprise banking environment",
+        "Ran daily threat hunting using CrowdStrike, Cisco Stealthwatch, and Fidelis forensics",
+        "Administered Fidelis DLP and insider-threat detection",
+        "Prepared operational reporting and led service review meetings",
+      ],
+      domain: ["SOC Operations", "Threat Hunting", "DLP", "Banking Security"],
+    },
+    {
+      company: "Orange Business Services",
+      location: "Delhi / International",
+      title: "Network Security Engineer",
+      period: "March 2017 – September 2018",
+      duration: "1.5 years",
+      description: "Security operations for Orange backbone, managed SOC delivery, and support for 8 African affiliate operators.",
+      highlights: [
+        "Arbor DDoS mitigation expert for Orange backbone across Asia Pacific (24/7 regional coverage)",
+        "Ran security operations for Orange affiliates across 8 African countries",
+        "Managed SOC delivery for 45+ international customers (QRadar, ArcSight)",
+        "Built custom detection on ArcSight, QRadar, and Splunk from CTI and incident findings",
+        "Handled legal/regulatory obligations: URL blocking, lawful request handling",
+      ],
+      domain: ["DDoS Protection", "SOC Operations", "ISP Security", "Regulatory Compliance"],
+    },
+    {
+      company: "Wipro Ltd.",
+      location: "Delhi",
+      title: "Information Security Engineer",
+      period: "March 2015 – February 2017",
+      duration: "2 years",
+      description: "Managed DDoS protection and network security for India's largest mobile network operators.",
+      highlights: [
+        "Led 24/7 managed DDoS protection team (5 analysts) on Bharti Airtel ISP backbone",
+        "Protected 45+ banking, government, and enterprise customers across 100+ links",
+        "Owned Arbor device configuration and tuning (TMS, CP, FS, PI, Peakflow)",
+        "Ran customer onboarding and SLA management; regulator-facing incident communication",
+        "Centralized PAN-India network operations for Idea Cellular: core, edge, backbone monitoring",
+      ],
+      domain: ["DDoS Protection", "Telecom Security", "ISP Operations", "Team Leadership"],
+    },
+    {
+      company: "Unified Consultancy Services",
+      location: "Delhi",
+      title: "Network Engineer",
+      period: "June 2014 – March 2015",
+      duration: "10 months",
+      description: "L1 network and desktop support, LAN design, and Cisco infrastructure.",
+      highlights: [
+        "Provided support across multiple clients (CREC, Complete Solars, MTS)",
+        "Designed LANs with VLANs, VTP, QoS, and layer-2 security",
+        "Installed, configured, and troubleshot Cisco routers (2950, 3500, 3750) and switches",
+      ],
+      domain: ["Networking", "Infrastructure"],
+    },
+  ],
+
+  projects: [
+    {
+      company: "EPAM Systems",
+      title: "Splunk to Google SecOps Migration",
+      period: "2025 (Ongoing)",
+      description: "Lead the migration of a regulated multi-cloud and on-premises environment from Splunk to Google SecOps (Chronicle).",
+      achievements: [
+        "30,000+ endpoints across enterprise infrastructure",
+        "900+ applications onboarded",
+        "Detection coverage mapped to MITRE ATT&CK",
+        "Data layer and detection layer coverage optimization",
+        "Governed security operations standards and detection quality",
+      ],
+      domain: ["SIEM Migration", "Google SecOps", "Architecture", "Cloud Security"],
+      skills: ["Google Chronicle", "Splunk", "MITRE ATT&CK", "Azure", "GCP"],
+    },
+    {
+      company: "EPAM Systems",
+      title: "Multi-Client Detection Engineering",
+      period: "2025 (Ongoing)",
+      description: "Strategic direction and platform optimization for 3 concurrent enterprise clients.",
+      achievements: [
+        "Built and tuned detection rules from threat hunting and CTI",
+        "Continuous platform improvement through incident review loops",
+        "Alert fatigue reduction and true positive rate optimization",
+        "Vendor collaboration and service quality enhancement",
+      ],
+      domain: ["Detection Engineering", "SOC Optimization"],
+      skills: ["Detection Engineering", "SIEM Tuning", "Alert Fatigue Reduction"],
+    },
+    {
+      company: "Deloitte",
+      title: "Interim SOC Manager - Global Engineering Client",
+      period: "2022-2024 (18 months)",
+      description: "Led security operations team for a global engineering and infrastructure company.",
+      achievements: [
+        "Team leadership: 8-10 engineers and analysts",
+        "24/7 SOC operations and MDR service delivery",
+        "Incident command and major incident coordination",
+        "Budget management for security operations initiatives",
+        "ITIL-aligned incident management and SLA governance",
+      ],
+      domain: ["SOC Leadership", "Team Management", "Incident Response"],
+      skills: ["Incident Command", "Team Leadership", "ITIL", "Budget Management"],
+    },
+    {
+      company: "Deloitte",
+      title: "Vulnerability Management Program",
+      period: "2022-2024 (18 months)",
+      description: "Led vulnerability management transformation for enterprise client.",
+      achievements: [
+        "Reduced 18,000+ high/critical vulnerabilities by 85% in 3 months",
+        "Risk-based remediation prioritization",
+        "Cloud vulnerability management platform migration",
+        "99% asset visibility achieved",
+      ],
+      domain: ["Vulnerability Management", "Risk Management"],
+      skills: ["Qualys", "Tenable", "Risk Prioritization", "Remediation Governance"],
+    },
+    {
+      company: "Deloitte",
+      title: "Multi-Client Detection Engineering",
+      period: "2022-2025",
+      description: "Detection engineering across 8 enterprise clients on multiple platforms.",
+      achievements: [
+        "Sentinel, MDE, Darktrace, Splunk platform ownership",
+        "MITRE ATT&CK mapping and DeTT&CT framework implementation",
+        "Threat hunting capability build-out",
+        "Purple team exercises for 2 clients",
+      ],
+      domain: ["Detection Engineering", "Threat Hunting", "Architecture"],
+      skills: ["Sentinel", "MDE", "Darktrace", "Splunk", "MITRE ATT&CK"],
+    },
+    {
+      company: "Rabobank",
+      title: "SIEM Migration & Multi-Tenant Framework",
+      period: "2020-2022",
+      description: "End-to-end Sentinel and ArcSight SIEM migration for Tier-1 regulated bank.",
+      achievements: [
+        "Zero SLA breaches during migration",
+        "Multi-tenant use case framework for 4+ business units",
+        "Detection and threat hunting content standardization",
+        "Parallel threat hunting validation",
+      ],
+      domain: ["SIEM Migration", "Architecture", "Compliance"],
+      skills: ["Sentinel", "ArcSight", "MITRE ATT&CK", "Zero Trust"],
+    },
+    {
+      company: "Aramco",
+      title: "Industrial OT Security Operations",
+      period: "2020",
+      description: "SIEM, SOAR, and threat hunting for critical energy infrastructure (IT and OT).",
+      achievements: [
+        "SIEM and SOAR platform configuration for OT environments",
+        "Monthly threat hunting cycles on CrowdStrike and Carbon Black",
+        "Vulnerability assessment across OT-related assets",
+        "Malware and phishing analysis",
+      ],
+      domain: ["OT Security", "Critical Infrastructure", "SIEM/SOAR"],
+      skills: ["CrowdStrike", "Carbon Black", "Tenable", "Nessus"],
+    },
+    {
+      company: "TCS Dubai",
+      title: "Banking SOC Operations & Threat Hunting",
+      period: "2018-2019",
+      description: "Security operations for UAE's largest bank with strict regulatory requirements.",
+      achievements: [
+        "ArcSight SIEM platform ownership and tuning",
+        "Daily threat hunting across identity, network, endpoint",
+        "DLP and insider threat detection administration",
+        "Regulatory compliance and audit support",
+      ],
+      domain: ["SOC Operations", "Threat Hunting", "DLP", "Banking Security"],
+      skills: ["ArcSight", "CrowdStrike", "Fidelis", "Cisco Stealthwatch"],
+    },
+    {
+      company: "Orange Business Services",
+      title: "DDoS Mitigation & Backbone Security",
+      period: "2017-2018",
+      description: "DDoS protection and security operations for Orange backbone and managed customers.",
+      achievements: [
+        "24/7 Arbor DDoS mitigation for Orange Asia Pacific backbone",
+        "45+ managed SOC customers across 8 African countries",
+        "Custom detection rule creation on multiple SIEM platforms",
+        "Regulatory obligation handling and lawful request processing",
+      ],
+      domain: ["DDoS Protection", "ISP Security", "Managed SOC", "Regulatory Compliance"],
+      skills: ["Arbor DDoS", "ArcSight", "QRadar", "Splunk"],
+    },
+    {
+      company: "Wipro",
+      title: "Bharti Airtel DDoS Protection Team Leadership",
+      period: "2015-2017",
+      description: "Led 24/7 DDoS protection service for India's largest mobile operator.",
+      achievements: [
+        "Team leadership: 5 analysts within 7-person operation",
+        "Protected 45+ banking, government, data centre customers across 100+ links",
+        "SLA management and regulator-facing incident communication",
+        "Customer onboarding and DDoS mitigation tuning",
+      ],
+      domain: ["DDoS Protection", "Telecom Security", "Team Leadership"],
+      skills: ["Arbor", "DDoS Mitigation", "Telecom Operations"],
+    },
+    {
+      company: "Wipro",
+      title: "Idea Cellular PAN-India NOC Operations",
+      period: "2015-2017",
+      description: "Centralized network operations for Idea Cellular across India.",
+      achievements: [
+        "Core, edge, backbone link monitoring (OSPF, BFD)",
+        "Firewall and VPN configuration management",
+        "Disaster declaration and operational escalation",
+        "Multi-vendor network device management",
+      ],
+      domain: ["Telecom Operations", "Network Security"],
+      skills: ["Cisco", "Firewall Management", "Network Monitoring"],
+    },
+  ],
+
+  skills: [
+    {
+      category: "Security Operations & Cyber Defense",
+      proficiency: "Expert",
+      details: "SOC and MSSP operating models, 24/7 monitoring, threat detection and response, threat hunting, detection engineering, alert tuning, MDR service delivery, incident command, crisis communication, NIS2 and GDPR obligations.",
+      tools: ["Security Monitoring", "Threat Response", "Incident Command", "SLA Management"],
+    },
+    {
+      category: "Detection & Response Platforms",
+      proficiency: "Expert",
+      details: "Strategic ownership, configuration, and optimization of SIEM, SOAR, EDR/XDR, and detection platforms. Building and tuning detections from CTI and hunt findings.",
+      tools: ["Sentinel", "Google SecOps", "Splunk", "QRadar", "ArcSight", "Chronicle SOAR"],
+    },
+    {
+      category: "Endpoint Security & Detection",
+      proficiency: "Expert",
+      details: "EDR/XDR platform ownership, detection rule development, threat hunting, and integration with SOC operations.",
+      tools: ["MDE", "SentinelOne", "CrowdStrike", "Carbon Black", "Darktrace", "Fidelis"],
+    },
+    {
+      category: "Network & DDoS Security",
+      proficiency: "Advanced",
+      details: "DDoS detection, mitigation, and prevention. ISP backbone security. 24/7 operations and customer-facing incident management.",
+      tools: ["Arbor DDoS", "Cisco Stealthwatch", "Firewall Platforms", "IPS/IDS"],
+    },
+    {
+      category: "Threat Hunting & Investigation",
+      proficiency: "Expert",
+      details: "Building and running threat hunting programs from the ground up. Hypothesis-driven hunts using ATT&CK framework. Translating CTI into detections.",
+      tools: ["MITRE ATT&CK", "DeTT&CT", "Hypothesis-Driven Hunting", "Log Analysis"],
+    },
+    {
+      category: "Vulnerability Management",
+      proficiency: "Advanced",
+      details: "Strategic vulnerability management, risk-based prioritization, remediation governance, and cloud platform migrations.",
+      tools: ["Qualys", "Tenable SC & IO", "Rapid7", "MDE TVM", "Nessus"],
+    },
+    {
+      category: "Cloud Security",
+      proficiency: "Advanced",
+      details: "Azure, AWS, and GCP security. Cloud-native detection and response. Secure configuration and CSPM.",
+      tools: ["Microsoft Azure", "AWS", "GCP", "Azure DevOps"],
+    },
+    {
+      category: "Identity & Access Management",
+      proficiency: "Advanced",
+      details: "Zero Trust Architecture (NIST 800-207), IAM design, privileged access management, RBAC, least privilege.",
+      tools: ["Microsoft Entra ID", "PAM Integration", "RBAC Design", "PKI"],
+    },
+    {
+      category: "Security Architecture & Governance",
+      proficiency: "Advanced",
+      details: "Reference architectures, technical standards, security monitoring architecture, secure configuration baselines, design review and change approval.",
+      tools: ["Zero Trust", "Security Standards", "Architecture Design", "Governance"],
+    },
+    {
+      category: "Scripting & Automation",
+      proficiency: "Advanced",
+      details: "Python, Bash, PowerShell. SOAR playbook development. Security automation and AI-assisted workflows.",
+      tools: ["Python", "Bash", "PowerShell", "SOAR Playbooks", "AI/Claude"],
+    },
+    {
+      category: "Frameworks & Compliance",
+      proficiency: "Advanced",
+      details: "NIS2, GDPR, ISO 27001, NIST CSF, MITRE ATT&CK, CIS Controls, audit evidence, auditor engagement, risk register support.",
+      tools: ["NIS2", "GDPR", "ISO 27001", "NIST", "MITRE ATT&CK"],
+    },
+    {
+      category: "Telecom & ISP Operations",
+      proficiency: "Advanced",
+      details: "ISP backbone and edge protection, DDoS detection and mitigation, carrier network operations, mobile operator NOC, affiliate operator security oversight, regulatory and lawful request handling.",
+      tools: ["Arbor", "Telecom Regulations", "Carrier Networks", "DDoS Mitigation"],
+    },
+  ],
+
+  certifications: [
+    {
+      name: "Certified Information Security Manager (CISM)",
+      issuer: "ISACA",
+      year: "2026",
+      category: "Leadership",
+    },
+    {
+      name: "GIAC Security Operations Manager (GSOM)",
+      issuer: "GIAC",
+      year: "2023",
+      category: "Operations",
+    },
+    {
+      name: "OffSec Certified Professional (OSCP)",
+      issuer: "OffSec",
+      year: "2020",
+      category: "Technical",
+    },
+    {
+      name: "Microsoft Certified: Cybersecurity Architect Expert",
+      issuer: "Microsoft",
+      year: "2022-2023",
+      details: "SC-100, SC-200, AZ-500",
+      category: "Cloud",
+    },
+    {
+      name: "Certified Ethical Hacker (CEH)",
+      issuer: "EC-Council",
+      category: "Technical",
+    },
+    {
+      name: "Splunk Certified User",
+      issuer: "Splunk",
+      category: "Platform",
+    },
+    {
+      name: "Qualys Certified Specialist",
+      issuer: "Qualys",
+      details: "VM, WAS, Policy Compliance",
+      category: "Vulnerability",
+    },
+    {
+      name: "CCNA Routing & Switching",
+      issuer: "Cisco",
+      category: "Network",
+    },
+    {
+      name: "CCNA Security",
+      issuer: "Cisco",
+      category: "Network",
+    },
+    {
+      name: "Claude Architect",
+      issuer: "Anthropic",
+      year: "In Progress",
+      category: "AI",
+    },
+  ],
+
+  education: [
+    {
+      degree: "B.Tech in Electronics and Communication",
+      school: "MDU Haryana",
+      year: "2010-2014",
+      achievement: "81% | Top Scorer / University Ranker (batch of ~25,000 students)",
+    },
+    {
+      degree: "PG Diploma in Cyber Law & Cyber Forensics",
+      school: "NLSIU Bangalore",
+      year: "2017-2018",
+    },
+  ],
+
+  coverLetter: `Dear Hiring Team,
+
+I'm writing to express my strong interest in security leadership roles where strategic thinking, hands-on detection engineering expertise, and proven team leadership drive enterprise cyber defense transformation.
+
+Over the past 12 years, I've built and led security operations at scale—from protecting carrier-grade infrastructure as part of Bharti Airtel's DDoS defense team, to architecting and managing detection platforms for regulated enterprises across financial services, energy, and public sector. My background spans the full spectrum: hands-on threat hunting and detection engineering, SOC leadership, SIEM/EDR platform ownership, incident command, and security architecture.
+
+What sets my profile apart is the combination of technical depth and operational leadership. I don't just oversee detection platforms—I build and tune them. I don't just manage incidents—I lead the team through them, translating raw data into actionable intelligence and organizational learning. At Deloitte, I cut an 18,000-item vulnerability backlog by 85% in 3 months while simultaneously running detection engineering for 8 clients and leading an interim SOC team of 8-10 through 24/7 operations. At Rabobank and EPAM, I've led multi-year platform migrations without SLA breaches, built multi-tenant detection frameworks, and continuously improved detection quality through structured review cycles.
+
+I approach security operations with a systems mindset: threat hunting feeds detection gaps; detection gaps feed architecture decisions; architecture informs platform roadmaps. I translate threat intelligence into working detections, map coverage against MITRE ATT&CK systematically, and treat alert tuning not as a periodic task but as a standing responsibility that compounds over time.
+
+I'm particularly drawn to organizations building applied AI-assisted SOC operations, working with advanced analytics for threat detection, and taking security automation seriously as a force multiplier. I hold CISM and GSOM certifications, have hands-on experience across Sentinel, Google SecOps, Splunk, QRadar, and CrowdStrike, and write Python and Bash to accelerate detection engineering and investigation workflows.
+
+I'm ready to bring this combination of technical leadership, team management, and architectural thinking to an organization serious about building resilient, data-driven cyber defense operations.
+
+I'd welcome the opportunity to discuss how my experience aligns with your team's priorities.
+
+Best regards,
+Devender Kumar`,
+
+  contactSection: {
+    heading: "Let's Connect",
+    subheading: "Interested in discussing security strategy, detection engineering, or SOC transformation?",
+    email: "devender.saini.com@gmail.com",
+    phone: "+31-685334809",
+    linkedin: "https://www.linkedin.com/in/devendersaini",
+  },
+}
